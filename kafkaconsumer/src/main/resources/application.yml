@@ -1,0 +1,9 @@
+server:
+  port: 8087
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:9092
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringsDeserializer
+      group-id: mystreamgroup
+      auto-offset-reset: earliest
