@@ -1,6 +1,12 @@
 In this project we are going to  consume the wikemedia change stream  using webClient and then publish the wikemedia stream to wikemediatopic 
 using kafka producer. Then we are consuming the message from the wikemediatopic using a kafkaconsumer
 
+The wikemedia changeset stream url is 
+```
+https://stream.wikimedia.org/v2/stream/recentchange
+```
+
+
 ```
 
 server:
